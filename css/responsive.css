@@ -1,0 +1,358 @@
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{ max-width:1375px !important; padding:0;}
+}
+
+
+
+@media only screen and (max-width: 1500px) and (min-width: 1400px){
+  .about_us_content h3.title {line-height: 1.1; margin-bottom: 10px; font-size: 23px; }
+
+
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {}
+
+/*-------------- Start Inner Page --------------*/
+/*-------------- Contact Page --------------*/
+
+
+@media only screen and (max-width: 1399px) {
+  /*-------------- Index Detail Area --------------*/
+  .detail-area .card{width: calc(60% - 15px);}
+  /*-------------- inner-banner Area --------------*/
+  .banner-content-area .page-title {font-size: 3.4vw; }
+  .banner-content-area {padding: 6.3vw 0;}
+  /*-------------- Company Profile Area --------------*/
+  .about_us_image {position: sticky; top: 0px; }
+  .certificate_scssn {padding: 60px 0px 90px 0px; }
+  .vision_scssn {margin-top: 0px; }
+  .vision_scssn {padding-left: 0px; }
+  .vision_scssn:before {width: 0%; }
+  .about_us_content h3.title {line-height: 1.1; margin-bottom: 10px; font-size: 22px; }
+  .about_us_content {padding: 0px 0px 0px 20px; }
+  .about_us_image img {min-height: 400px; }
+  .about_us_image::before {bottom: -40px; }
+
+  .details_catgory ul li span{min-width: 0px; }
+  .product_details p{padding-bottom: 0px; }
+
+}
+@media only screen and (max-width: 1299px) {
+  /*-------------- Index About Area --------------*/
+  .about-content .title{font-size: 28px;}
+  .related-pro-scssn .product_name h4{font-size: 16px; }
+
+
+
+
+}
+@media only screen and (max-width: 1199px) {
+  /*-------------- Index Header Area --------------*/
+  .top-header .logo-area .logo{margin-right: 15px;padding-right: 15px;}
+  .top-header img{max-width: 170px;}
+  .top-header .header-contact li{margin-right: 20px;}
+  /*-------------- Index About Area --------------*/
+  .index-about::before{width: 50%;height: 230px;}
+  .index-about .about-img{display: block;margin: 30px auto 0;width: 100%;max-width: 500px;}
+  .detail-area .card{width: calc(55% - 15px);}
+  /*-------------- inner-banner Area --------------*/
+  .banner-content-area {padding: 8vw 0; }
+  /*-------------- Company Profile Area --------------*/
+  .our_professional_content .title {width: 100%; font-size: 32px; }
+  .our_professional_content p {width: 100%; }
+  .about_us_content {padding: 0px 30px 30px 30px; }
+  .business_process_scssn {padding: 60px 0 0px; position: relative; }
+  .inner_about_scssn {display: block; padding-top: 40px; padding-bottom: 50px; }
+  .about_us_image img {display: block; margin: 30px auto 0; width: 100%; max-width: 500px; height: auto !important; }
+  .inner_about_scssn .about-content {padding: 0; margin-top: 30px; }
+
+}
+@media only screen and (max-width: 991px) {
+  /*-------------- Index Theme Basic --------------*/
+  .sub-title{font-size: 18px;}
+  .title{font-size: 32px;}
+  /*-------------- Index Header Area --------------*/
+  .top-header{border-bottom: none;}
+  .top-header .header-contact li{margin-right: 10px;padding-right: 10px;border-right: 1px solid #E3E3E3;}
+  .top-header .header-contact a span{display: none;}
+  .header .navbar{justify-content: flex-end;}
+  .header .navbar-collapse{ position: fixed;top: 0;left: 0;height: 100%;background: rgb(3 39 74 / 98%);overflow-y: auto;z-index: 9;}
+  .header .navbar-collapse .navbar-nav{padding:30px 15px;width: 250px;}
+  .menu-overlay{display: none;background-color: #000;opacity: 0.5;filter: alpha(opacity=50);position: fixed;top: 0;right: 0;bottom: 0;left: 0;z-index: 8;}
+  .header .navbar-nav .nav-item{padding: 0;}
+  .header .navbar-nav .nav-item .nav-link{margin-bottom: 15px;padding: 8px 10px;color: rgb(255 255 255/ 65%);}
+  .header .navbar-nav .nav-item .nav-link.site-link:before{padding: 8px 0;width: 0;border-bottom: 1px solid #fff;color: #fff;left: 10px;transition: max-width 0.5s, width 0.5s;}
+  .header .navbar-nav .nav-item .nav-link.site-link:hover:before{width: calc(100% - 20px);}
+  .header .navbar-nav .nav-item .nav-link.site-link.active:before{width: calc(100% - 20px);}
+  .btm-header{padding: 0;}
+  /*-------------- Index Product Area --------------*/
+  .index-products{padding-left: 0;}
+  .index-products img{margin: 30px auto 0;width: 100%;max-width: 450px;display: block;}
+  /*-------------- Index Feature Area --------------*/
+  .feature .card{min-width: 210px;}
+  .feature .card .icon{margin-bottom: 15px;}
+  .feature .card h4{font-size: 18px;}
+  /*-------------- Index Detail Area --------------*/
+  .detail-area{flex-direction: column;}
+  .detail-area .bg-img{width: 100%;position: relative;}
+  .detail-area .card{margin: -30px auto 0;width: 90%;min-height: unset;}
+  .detail-area .sipn-area{width: 45vw;}
+  /*-------------- inner-banner Area --------------*/
+  .banner-content-area {padding: 9vw 0; }
+  .banner-content-area .page-title {font-size: 4.1vw; }
+  .contact_scssn .detail-main-area .detail-area:hover .card {transform: translate(0px, 0px); }
+  .inner-banner .banner-img::before, .inner-banner .banner-img::after {top: -5px; }
+  /*-------------- contact page Area --------------*/
+  .contact-box {padding: 70px; }
+  .contact_scssn .detail-area {margin: 50px 0 60px; }
+
+  /*-------------- Company Profile Area --------------*/
+  .trade_image_box img {margin-top: 0px; }
+  .trade_content {display: block; padding-right: 0px; }
+  .vision_box {display: block; }
+  .vision_image {max-width: 170px;; }
+  .vision_scssn{padding-left: 0px; }
+  .vision_scssn:before {width: 0; }
+  .vision_mission_content {padding: 30px 0px 10px 0px; }
+  .vision_scssn p {width: 100%; }
+  .business_process_content {padding-left: 0px; }
+  .why_us_content p {width: 100%; }
+  .why_us_box {padding: 40px 10px; }
+  .why_us_box:hover .iocn_box img {transform: scale(1.6); }
+  .our_leadership_content {height: auto; margin-top: 50px; }
+  .our_leadership_scssn h5.sub-title.mb-5 {margin-bottom: 20px !important;; }
+  p.sub_title_per {font-size: 20px; }
+  .about_content_title i {font-size: 40px; }
+  #our_team_scssn:before {position: absolute; content: ''; top: 0; right: 0; width: 100%; }
+  #our_right_team_scssn:before {position: absolute; content: ''; left: 0; top: 0; width: 100%; }
+  .why_us_scssn {padding: 40px 0px 40px 0px; }
+  .our_professional_content .title {font-size: 28px; }
+  .business_process_scssn {padding: 60px 0 40px; position: relative; }
+  .business_process_scssn::before {width: 50%; height: 230px; }
+  .trade_image_box img {width: 100%; transition: 500ms; height: 400px; object-fit: contain; }
+  .business_process_image img {width: 100%; transition: 500ms; height: 400px; object-fit: contain; }
+  .why_us_image {display: block; width: 90%; max-width: 600px; height: 100%; margin: 0px auto 0; }
+  #our_team_scssn img {display: block; width: 100%; max-width: 400px; height: 100%; margin:auto; }
+  #our_right_team_scssn img {width: 100%; display: block; width: 100%; max-width: 400px; height: 100%; margin:auto; }
+
+  .product_details {padding: 0px 0px 0px 0px; }
+  .product_details .sub-title {white-space: normal; }
+  .product_details h6 {margin-bottom: 20px; }
+  .product_details p {padding-top: 20px; margin-bottom: 20px; }
+  .product_scssn {padding-bottom: 20px; }
+  .product_tabs .nav {flex-wrap: inherit; }
+  .product_tabs .nav-pills .nav-link {padding: 10px 10px; }
+  .product_tabs .nav-pills .nav-link.active, .nav-pills .show>.nav-link {padding: 10px 10px; }
+  /*Career*/
+  .career-form  .detail-area .bg-img {width: 100%; }
+  .career-form .detail-area .card{margin: -30px auto 0; width: 90%; min-height: unset; }
+  .career-form {padding-top: 0px; padding-bottom: 30px; }
+
+  .thank_page {padding-top: 120px; padding-bottom: 120px; }
+  .thank_page h2 {font-size: 95px; }
+
+  .pagenotfound h2 {font-size: 170px; }
+  .pagenotfound .page-btn {margin-top: 40px; }
+
+}
+@media only screen and (max-width: 767px) {
+  /*-------------- Index Theme Basic --------------*/
+  .sub-title{font-size: 16px;}
+  .title{font-size: 28px;}
+  /*-------------- Index Header Area --------------*/
+  .top-header img{max-width: 160px;}
+  /*-------------- Index About Area --------------*/
+  .index-about .about-content{padding: 0;}
+  /*-------------- Index Product Area --------------*/
+  .index-products .page-list li{margin-bottom: 18px;font-size: 22px;}
+  /*-------------- Index Feature Area --------------*/
+  .feature .card{min-width: 160px;}
+  .feature .card h4{font-size: 16px;}
+  /*-------------- Index Detail Area --------------*/
+  .detail-area .card{padding: 50px 30px 50px 30px;}
+
+  /*-------------- inner-banner Area --------------*/
+  .banner-content-area .page-title {font-size: 4.9vw; }
+  .banner-content-area {padding: 7vw 0; }
+
+  /*-------------- contact page Area --------------*/
+  .contact-box {padding: 50px; }
+  .contact_scssn .detail-area {margin: 40px 0 50px; }
+
+  /*- Company Profile Area -*/
+  .certificate_scssn th {font-size: 14px; }
+  .certificate_scssn td {font-size: 14px; }
+  .our_professional_content .title {font-size: 24px; }
+  p.sub_title_per:before {left: 40%; }
+  .trade_scssn {padding-top: 40px; padding-bottom: 40px; }
+  .why_us_box .iocn_box img {width: 15%; }
+  .why_us_box:hover .iocn_box img {transform: scale(1.3); }
+
+  .products_page {display: block; padding-top: 60px; padding-bottom: 60px; background: var(--theme-light); }
+  .product_details .sub-title {font-size: 24px; }
+  .product_tabs .nav {flex-wrap: wrap; }
+  .product_tabs  li.nav-item {margin-right: 20px; margin-bottom: 25px; }
+  .product_tabs {position: relative; padding: 0px 0px 0px 0px; }
+  .product_tabs:before {border: none; }
+
+  /*inquiry_popup*/
+  .inquiry_popup .offcanvas-start {width: 500px; padding: 50px; }
+
+  .thank_page h2 {font-size: 65px; }
+  .pagenotfound {padding-top: 90px; padding-bottom: 90px; }
+  .pagenotfound h2 {font-size: 140px; }
+  .pagenotfound .page-btn {margin-top: 35px; }
+
+
+}
+@media only screen and (max-width: 575px) {
+  /*-------------- Index Theme Basic --------------*/
+  .sub-title{font-size: 17px;}
+  .title{font-size: 20px;}
+  .page-btn{padding: 0 20px;font-size: 15px;line-height: 40px;}
+  .page-btn::before{padding-left: 20px;}
+  /*-------------- Index Header Area --------------*/
+  .top-header{padding: 10px;}
+  .top-header .logo-area{flex-direction: column;}
+  .top-header .logo-area .logo{margin: 0 0 5px 0;padding: 0 0 5px 0;border-width: 0 0 1px 0;}
+  .top-header .logo img{max-width: 120px;}
+  .top-header img{max-width: 110px;}
+  /*-------------- Index Slider Area --------------*/
+  .page-slider .carousel-caption{padding: 7vw 2vw 0 4vw;}
+  .page-slider .carousel-caption h2{font-size: 3.8vw;width: 38vw;line-height: 1.2;}
+  /*-------------- Index About Area --------------*/
+  .index-about{padding: 35px 0 35px;}
+  .about-content .title{font-size: 20px;}
+  .index-about .about-content p{margin: 20px 0 15px;width: 100%;font-size: 18px;}
+  .index-about .about-content .page-btn{margin: 5px 25px 0 0;}
+  .index-about .about-img{margin: 20px auto 0;}
+  /*-------------- Index Product Area --------------*/
+  .index-products{padding: 35px 0;}
+  .index-products .page-list{margin-top: 20px;}
+  .index-products .page-list li{font-size: 17px;padding-left: 32px;}
+  .index-products .page-btn{margin-top: 20px;}
+  .page-list li::before{left: 0;width: 17px;}
+  .index-products img{margin-top: 20px;}
+  /*-------------- Index Detail Area --------------*/
+  .detail-area{margin: 35px 0 35px;}
+  .detail-area .card {margin-top: -25px;padding: 20px 15px;}
+  .detail-area .card .title{margin-bottom: 20px;}
+  .detail-area .card p{font-size: 18px;}
+  .detail-area .card ul li{font-size: 17px;}
+  .detail-area .card .page-btn{margin-top: 20px;}
+  /*-------------- Index Industries Area --------------*/
+  .industries{padding: 15px 0 35px;}
+  .industries ul li{margin-top: 20px;}
+  /*-------------- Index Footer Area --------------*/
+  .footer .footer-top{padding: 35px 0;}
+  .footer .footer-top .foot-link li{margin-top: 10px;}
+  .footer .footer-top .foot-link li:first-child{margin-top: 10px;}
+  .footer .footer-top .foot-contact li{margin-top: 15px;}
+  .footer .footer-btm{padding: 20px 0 20px;}
+  .footer .footer-btm .copy-area{flex-direction: column;align-items: center;text-align: center;}
+  .footer .footer-btm .copy-area p{margin-bottom: 10px;}
+  .footer .footer-btm .copy-area p:last-child{margin-bottom: 0px;}
+
+  /*-------------- inner-banner Area --------------*/
+  .banner-content-area {padding: 10vw 0; }
+  .inner-banner .banner-img::before, .inner-banner .banner-img::after {width: 18.9vw; height: 6.1vw; }
+  .inner-banner .banner-img::after {right: -4.1vw; }
+  .banner-content-area .page-title {font-size: 5.9vw; line-height: 1.3; }
+  .inner-banner .banner-img img{border-radius: 1.5vw 1.5vw 0 0;}
+
+  /*-------------- contact page Area --------------*/
+  .contact-box {padding: 40px; }
+  .contact-social li a i {width: 40px; height: 40px; line-height: 40px; font-size: 17px; }
+  /*- Company Profile Area -*/
+  .our_professional_content .title {font-size: 20px; }
+  .about_content_title i {font-size: 34px; }
+  .about_us_content {padding: 0px 10px 30px 10px; }
+  .our_professional_scssn {padding: 60px 0px 60px 0px; }
+  .our_leadership_content {padding: 45px 20px 0px 20px; }
+  .about-content li span {display: block; margin-left: 0px; margin-top: 15px; }
+  .inner_about_scssn h5.sub-title {font-size: 25px; }
+  .trade_scssn .sub-title {font-size: 22px; }
+  .vision_mission_content .sub-title {font-size: 22px; color: #ffffff; }
+  .why_us_content .sub-title {font-size: 22px; }
+  .our_leadership_scssn h5.sub-title.mb-5 {font-size: 22px; }
+
+  .details_catgory ul li span {display: block; margin-bottom: 5px; }
+  /*Career*/
+  .career-form {padding-top: 0px; padding-bottom: 0px; }
+  .career-form .sub-title {font-size: 20px; }
+  .career-form  .detail-area .card p {font-size: 16px; margin-bottom: 15px; }
+
+  /*inquiry_popup*/
+  .inquiry_popup .offcanvas-start {width: 380px; padding: 30px 15px; }
+  .inquiry_popup button.btn-close.text-reset {right: 0px; top: -30px; }
+  .inquiry_popup h5 {font-size: 25px; }
+  
+  .thank_page {padding-top: 100px; padding-bottom: 100px; }
+  .thank_page h2 {font-size: 50px; }
+  .pagenotfound {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .pagenotfound h2 {
+    font-size: 100px;
+  }
+  .pagenotfound .page-btn {
+    margin-top: 25px;
+  }
+
+}
+
+
+@media only screen and (max-width: 439px) {
+  /*- Company Profile Area -*/
+  .trade_image_box img {height:100%; }
+  .business_process_image img {height:100%; }
+  .inner_about_scssn {display: block; padding-top: 0px; padding-bottom: 50px; }
+  .inner_about_scssn h5.sub-title {font-size: 22px; margin-bottom: 20px; }
+  .about_us_image::before {bottom: -10px; }
+  .inner_about_scssn .about-content {padding: 0; margin-top: 0px; }
+
+  /*Career*/
+  .packaging_size li {padding: 10px 15px !important; }
+  .career-form .detail-area .card{width: 96%; }
+}
+
+
+@media only screen and (max-width: 399px) {
+  /*-------------- Index Detail Area --------------*/
+  .detail-area .sipn-area{width: 65vw;}
+  /*-------------- Index Footer Area --------------*/
+  .footer .footer-top .foot-link{flex-direction: column;align-items: center;}
+  .footer .footer-top .foot-link li{padding: 0 10px !important;}
+
+  /*-------------- inner-banner Area --------------*/
+  .banner-content-area {padding: 11.9vw 0; }
+  .banner-content-area .page-title {font-size: 6.9vw; } 
+  .inner-banner .banner-img::before, .inner-banner .banner-img::after {top: -10px; }
+  .inner-banner .banner-img {right: 20px; }
+
+  /*-------------- contact page Area --------------*/
+  .contact-box {padding: 30px; }
+  .contact-info p {white-space: normal; }
+  /*- Company Profile Area -*/
+  p.sub_title_per:before {left: 35%; }
+
+
+  /*Career*/
+  .packaging_size ul {display: block; }
+  .packaging_size li {display: block; margin-bottom: 10px !important; }
+  .product_tabs .nav-pills .nav-link.active, .nav-pills .show>.nav-link {font-size: 14px; }
+  .product_tabs .nav-pills .nav-link {font-size: 14px; }
+  .product_name_scssn {padding-bottom: 55px; }
+  .related-pro-scssn {padding-top: 45px; padding-bottom: 45px; }
+  
+  /*inquiry_popup*/
+  .inquiry_popup .offcanvas-start {width: 300px; padding: 30px 15px; }
+  .inquiry_popup h5 {font-size: 20px; margin-bottom: 12px; }
+  .pagenotfound  p {font-size: 20px; }
+
+
+}

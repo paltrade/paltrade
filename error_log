@@ -1,0 +1,4 @@
+[16-Jul-2024 05:01:16 UTC] PHP Warning:  Array to string conversion in /home3/paltradechem/public_html/send-mail.php on line 95
+[16-Jul-2024 05:01:16 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home3/paltradechem/public_html/send-mail.php on line 100
+[16-Jul-2024 05:05:38 UTC] PHP Warning:  Array to string conversion in /home3/paltradechem/public_html/send-mail.php on line 94
+[16-Jul-2024 05:05:38 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home3/paltradechem/public_html/send-mail.php on line 99
